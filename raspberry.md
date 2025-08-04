@@ -11,14 +11,15 @@
 **1.** Setup your server
 
 - In our case, we used:
-  - Two Raspberry Pi 4 Model B
-  - Two SSD's 128 GB
+  - Two Raspberry Pi 4 Model B 4GB
+  - Two SSD's 128GB
+  - Two SATA to USB 3.0 Adapters
   - One cooler
   - Pi case / rig
 
 **2.** Buy a domain (you can use [Namecheap](https://www.namecheap.com/), for example).
 
-**3.** Create a [Cloudflare](https://www.cloudflare.com/) account and set Cloudflare as your DNS provider on Namecheap.
+**3.** Create a [Cloudflare](https://www.cloudflare.com/) account and set Cloudflare as your DNS provider on Namecheap. You can follow this [tutorial](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-a-cloudflare-account/)
 
 - Wait until DNS challenge is completed.
 
@@ -41,6 +42,8 @@ sudo apt install rpi-imager
 
 ---
 
-# 2.
+# 2. Network Settings
 
-**8.**
+**1.** You need to configure your DHCP on your router or switch. In general, you can access your router's settings page through your browser using your default gateway address (you can check it on your router).
+
+![img01](/server/assets/img01.png)
